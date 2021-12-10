@@ -1,0 +1,22 @@
+[15:07:21] [main/INFO]: ModLauncher running: args [--username, Amaru782, --version, forge-36.2.19, --gameDir, C:\Users\usuario\curseforge\minecraft\Instances\Better Minecraft [FORGE] - 1.16.5, --assetsDir, C:\Users\usuario\curseforge\minecraft\Install\assets, --assetIndex, 1.16, --uuid, dc27f25f4a0349eca32fbd0abdd36c7c, --accessToken, ????????, --userType, msa, --versionType, release, --width, 1366, --height, 768, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.19, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[15:07:21] [main/INFO]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_51 by Oracle Corporation
+[15:07:21] [main/WARN]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[15:07:31] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[15:07:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/usuario/curseforge/minecraft/Install/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[15:07:32] [main/FATAL]: Failed to find Minecraft resource version 1.16.5-20210115.111550 at C:\Users\usuario\curseforge\minecraft\Install\libraries\net\minecraftforge\forge\1.16.5-36.2.19\forge-1.16.5-36.2.19-client.jar
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.RuntimeException: Missing minecraft resource!
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLCommonLaunchHandler.lambda$validatePaths$4(FMLCommonLaunchHandler.java:124)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLCommonLaunchHandler$$Lambda$168/539690370.accept(Unknown Source)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLCommonLaunchHandler.validatePaths(FMLCommonLaunchHandler.java:121)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLLoader.setupLaunchHandler(FMLLoader.java:202)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLServiceProvider.initialize(FMLServiceProvider.java:94)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServiceDecorator.onInitialize(TransformationServiceDecorator.java:68)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServicesHandler.lambda$initialiseTransformationServices$7(TransformationServicesHandler.java:107)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServicesHandler$$Lambda$92/1423561005.accept(Unknown Source)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.HashMap$Values.forEach(HashMap.java:972)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServicesHandler.initialiseTransformationServices(TransformationServicesHandler.java:107)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:59)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:76)
+[15:07:32] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
